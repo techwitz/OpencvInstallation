@@ -22,7 +22,9 @@ bienfirstappOpenCVImpl::bienfirstappOpenCVImpl ()
 void bienfirstappOpenCVImpl::process (cv::Mat &mat)
 {
   // FIXME: Implement this
-  throw KurentoException (NOT_IMPLEMENTED, "bienfirstappOpenCVImpl::process: Not implemented");
+  //throw KurentoException (NOT_IMPLEMENTED, "bienfirstappOpenCVImpl::process: Not implemented");
+	cv::Point textOrg(100, 100);
+	putText(mat, "Hello Bien APP", textOrg, 1, 2, cv::Scalar(0, 0, 0));
 }
 
 

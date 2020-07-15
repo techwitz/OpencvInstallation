@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/AzureUser/kurento/bienfirstapp
+CMAKE_SOURCE_DIR = /home/ajander/OpencvInstallation/bienfirstapp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/AzureUser/kurento/bienfirstapp/build
+CMAKE_BINARY_DIR = /home/ajander/OpencvInstallation/bienfirstapp/build
 
 # Include any dependencies generated for this target.
 include src/server/CMakeFiles/kmsbienfirstappinterface.dir/depend.make
@@ -59,9 +59,9 @@ include src/server/CMakeFiles/kmsbienfirstappinterface.dir/flags.make
 
 src/server/cpp_interface_internal.generated: ../src/server/interface/bienfirstapp.bienfirstapp.kmd.json
 src/server/cpp_interface_internal.generated: ../src/server/interface/bienfirstapp.kmd.json
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/AzureUser/kurento/bienfirstapp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating cpp_interface_internal.generated, interface/generated-cpp/bienfirstappInternal.cpp, interface/generated-cpp/bienfirstappInternal.hpp"
-	cd /home/AzureUser/kurento/bienfirstapp/build/src/server && /usr/bin/cmake -E touch cpp_interface_internal.generated
-	cd /home/AzureUser/kurento/bienfirstapp/build/src/server && /usr/bin/kurento-module-creator -c /home/AzureUser/kurento/bienfirstapp/build/src/server/interface/generated-cpp -r /home/AzureUser/kurento/bienfirstapp/src/server/interface -dr /usr/share/kurento/modules -dr /usr/share/kurento/modules -it cpp_interface_internal
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ajander/OpencvInstallation/bienfirstapp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating cpp_interface_internal.generated, interface/generated-cpp/bienfirstappInternal.cpp, interface/generated-cpp/bienfirstappInternal.hpp"
+	cd /home/ajander/OpencvInstallation/bienfirstapp/build/src/server && /usr/bin/cmake -E touch cpp_interface_internal.generated
+	cd /home/ajander/OpencvInstallation/bienfirstapp/build/src/server && /usr/bin/kurento-module-creator -c /home/ajander/OpencvInstallation/bienfirstapp/build/src/server/interface/generated-cpp -r /home/ajander/OpencvInstallation/bienfirstapp/src/server/interface -dr /usr/share/kurento/modules -dr /usr/share/kurento/modules -it cpp_interface_internal
 
 src/server/interface/generated-cpp/bienfirstappInternal.cpp: src/server/cpp_interface_internal.generated
 	@$(CMAKE_COMMAND) -E touch_nocreate src/server/interface/generated-cpp/bienfirstappInternal.cpp
@@ -71,9 +71,9 @@ src/server/interface/generated-cpp/bienfirstappInternal.hpp: src/server/cpp_inte
 
 src/server/cpp_interface.generated: ../src/server/interface/bienfirstapp.bienfirstapp.kmd.json
 src/server/cpp_interface.generated: ../src/server/interface/bienfirstapp.kmd.json
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/AzureUser/kurento/bienfirstapp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating cpp_interface.generated, interface/generated-cpp/bienfirstapp.cpp, interface/generated-cpp/bienfirstapp.hpp"
-	cd /home/AzureUser/kurento/bienfirstapp/build/src/server && /usr/bin/cmake -E touch cpp_interface.generated
-	cd /home/AzureUser/kurento/bienfirstapp/build/src/server && /usr/bin/kurento-module-creator -c /home/AzureUser/kurento/bienfirstapp/build/src/server/interface/generated-cpp -r /home/AzureUser/kurento/bienfirstapp/src/server/interface -dr /usr/share/kurento/modules -dr /usr/share/kurento/modules -it cpp_interface
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ajander/OpencvInstallation/bienfirstapp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating cpp_interface.generated, interface/generated-cpp/bienfirstapp.cpp, interface/generated-cpp/bienfirstapp.hpp"
+	cd /home/ajander/OpencvInstallation/bienfirstapp/build/src/server && /usr/bin/cmake -E touch cpp_interface.generated
+	cd /home/ajander/OpencvInstallation/bienfirstapp/build/src/server && /usr/bin/kurento-module-creator -c /home/ajander/OpencvInstallation/bienfirstapp/build/src/server/interface/generated-cpp -r /home/ajander/OpencvInstallation/bienfirstapp/src/server/interface -dr /usr/share/kurento/modules -dr /usr/share/kurento/modules -it cpp_interface
 
 src/server/interface/generated-cpp/bienfirstapp.cpp: src/server/cpp_interface.generated
 	@$(CMAKE_COMMAND) -E touch_nocreate src/server/interface/generated-cpp/bienfirstapp.cpp
@@ -83,16 +83,16 @@ src/server/interface/generated-cpp/bienfirstapp.hpp: src/server/cpp_interface.ge
 
 src/server/CMakeFiles/kmsbienfirstappinterface.dir/interface/generated-cpp/bienfirstappInternal.cpp.o: src/server/CMakeFiles/kmsbienfirstappinterface.dir/flags.make
 src/server/CMakeFiles/kmsbienfirstappinterface.dir/interface/generated-cpp/bienfirstappInternal.cpp.o: src/server/interface/generated-cpp/bienfirstappInternal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/AzureUser/kurento/bienfirstapp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/server/CMakeFiles/kmsbienfirstappinterface.dir/interface/generated-cpp/bienfirstappInternal.cpp.o"
-	cd /home/AzureUser/kurento/bienfirstapp/build/src/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kmsbienfirstappinterface.dir/interface/generated-cpp/bienfirstappInternal.cpp.o -c /home/AzureUser/kurento/bienfirstapp/build/src/server/interface/generated-cpp/bienfirstappInternal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ajander/OpencvInstallation/bienfirstapp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/server/CMakeFiles/kmsbienfirstappinterface.dir/interface/generated-cpp/bienfirstappInternal.cpp.o"
+	cd /home/ajander/OpencvInstallation/bienfirstapp/build/src/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kmsbienfirstappinterface.dir/interface/generated-cpp/bienfirstappInternal.cpp.o -c /home/ajander/OpencvInstallation/bienfirstapp/build/src/server/interface/generated-cpp/bienfirstappInternal.cpp
 
 src/server/CMakeFiles/kmsbienfirstappinterface.dir/interface/generated-cpp/bienfirstappInternal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kmsbienfirstappinterface.dir/interface/generated-cpp/bienfirstappInternal.cpp.i"
-	cd /home/AzureUser/kurento/bienfirstapp/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/AzureUser/kurento/bienfirstapp/build/src/server/interface/generated-cpp/bienfirstappInternal.cpp > CMakeFiles/kmsbienfirstappinterface.dir/interface/generated-cpp/bienfirstappInternal.cpp.i
+	cd /home/ajander/OpencvInstallation/bienfirstapp/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ajander/OpencvInstallation/bienfirstapp/build/src/server/interface/generated-cpp/bienfirstappInternal.cpp > CMakeFiles/kmsbienfirstappinterface.dir/interface/generated-cpp/bienfirstappInternal.cpp.i
 
 src/server/CMakeFiles/kmsbienfirstappinterface.dir/interface/generated-cpp/bienfirstappInternal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kmsbienfirstappinterface.dir/interface/generated-cpp/bienfirstappInternal.cpp.s"
-	cd /home/AzureUser/kurento/bienfirstapp/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/AzureUser/kurento/bienfirstapp/build/src/server/interface/generated-cpp/bienfirstappInternal.cpp -o CMakeFiles/kmsbienfirstappinterface.dir/interface/generated-cpp/bienfirstappInternal.cpp.s
+	cd /home/ajander/OpencvInstallation/bienfirstapp/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ajander/OpencvInstallation/bienfirstapp/build/src/server/interface/generated-cpp/bienfirstappInternal.cpp -o CMakeFiles/kmsbienfirstappinterface.dir/interface/generated-cpp/bienfirstappInternal.cpp.s
 
 src/server/CMakeFiles/kmsbienfirstappinterface.dir/interface/generated-cpp/bienfirstappInternal.cpp.o.requires:
 
@@ -107,16 +107,16 @@ src/server/CMakeFiles/kmsbienfirstappinterface.dir/interface/generated-cpp/bienf
 
 src/server/CMakeFiles/kmsbienfirstappinterface.dir/interface/generated-cpp/bienfirstapp.cpp.o: src/server/CMakeFiles/kmsbienfirstappinterface.dir/flags.make
 src/server/CMakeFiles/kmsbienfirstappinterface.dir/interface/generated-cpp/bienfirstapp.cpp.o: src/server/interface/generated-cpp/bienfirstapp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/AzureUser/kurento/bienfirstapp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/server/CMakeFiles/kmsbienfirstappinterface.dir/interface/generated-cpp/bienfirstapp.cpp.o"
-	cd /home/AzureUser/kurento/bienfirstapp/build/src/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kmsbienfirstappinterface.dir/interface/generated-cpp/bienfirstapp.cpp.o -c /home/AzureUser/kurento/bienfirstapp/build/src/server/interface/generated-cpp/bienfirstapp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ajander/OpencvInstallation/bienfirstapp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/server/CMakeFiles/kmsbienfirstappinterface.dir/interface/generated-cpp/bienfirstapp.cpp.o"
+	cd /home/ajander/OpencvInstallation/bienfirstapp/build/src/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kmsbienfirstappinterface.dir/interface/generated-cpp/bienfirstapp.cpp.o -c /home/ajander/OpencvInstallation/bienfirstapp/build/src/server/interface/generated-cpp/bienfirstapp.cpp
 
 src/server/CMakeFiles/kmsbienfirstappinterface.dir/interface/generated-cpp/bienfirstapp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kmsbienfirstappinterface.dir/interface/generated-cpp/bienfirstapp.cpp.i"
-	cd /home/AzureUser/kurento/bienfirstapp/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/AzureUser/kurento/bienfirstapp/build/src/server/interface/generated-cpp/bienfirstapp.cpp > CMakeFiles/kmsbienfirstappinterface.dir/interface/generated-cpp/bienfirstapp.cpp.i
+	cd /home/ajander/OpencvInstallation/bienfirstapp/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ajander/OpencvInstallation/bienfirstapp/build/src/server/interface/generated-cpp/bienfirstapp.cpp > CMakeFiles/kmsbienfirstappinterface.dir/interface/generated-cpp/bienfirstapp.cpp.i
 
 src/server/CMakeFiles/kmsbienfirstappinterface.dir/interface/generated-cpp/bienfirstapp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kmsbienfirstappinterface.dir/interface/generated-cpp/bienfirstapp.cpp.s"
-	cd /home/AzureUser/kurento/bienfirstapp/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/AzureUser/kurento/bienfirstapp/build/src/server/interface/generated-cpp/bienfirstapp.cpp -o CMakeFiles/kmsbienfirstappinterface.dir/interface/generated-cpp/bienfirstapp.cpp.s
+	cd /home/ajander/OpencvInstallation/bienfirstapp/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ajander/OpencvInstallation/bienfirstapp/build/src/server/interface/generated-cpp/bienfirstapp.cpp -o CMakeFiles/kmsbienfirstappinterface.dir/interface/generated-cpp/bienfirstapp.cpp.s
 
 src/server/CMakeFiles/kmsbienfirstappinterface.dir/interface/generated-cpp/bienfirstapp.cpp.o.requires:
 
@@ -141,9 +141,9 @@ src/server/libkmsbienfirstappinterface.a: src/server/CMakeFiles/kmsbienfirstappi
 src/server/libkmsbienfirstappinterface.a: src/server/CMakeFiles/kmsbienfirstappinterface.dir/interface/generated-cpp/bienfirstapp.cpp.o
 src/server/libkmsbienfirstappinterface.a: src/server/CMakeFiles/kmsbienfirstappinterface.dir/build.make
 src/server/libkmsbienfirstappinterface.a: src/server/CMakeFiles/kmsbienfirstappinterface.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/AzureUser/kurento/bienfirstapp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libkmsbienfirstappinterface.a"
-	cd /home/AzureUser/kurento/bienfirstapp/build/src/server && $(CMAKE_COMMAND) -P CMakeFiles/kmsbienfirstappinterface.dir/cmake_clean_target.cmake
-	cd /home/AzureUser/kurento/bienfirstapp/build/src/server && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kmsbienfirstappinterface.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ajander/OpencvInstallation/bienfirstapp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libkmsbienfirstappinterface.a"
+	cd /home/ajander/OpencvInstallation/bienfirstapp/build/src/server && $(CMAKE_COMMAND) -P CMakeFiles/kmsbienfirstappinterface.dir/cmake_clean_target.cmake
+	cd /home/ajander/OpencvInstallation/bienfirstapp/build/src/server && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kmsbienfirstappinterface.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/server/CMakeFiles/kmsbienfirstappinterface.dir/build: src/server/libkmsbienfirstappinterface.a
@@ -156,7 +156,7 @@ src/server/CMakeFiles/kmsbienfirstappinterface.dir/requires: src/server/CMakeFil
 .PHONY : src/server/CMakeFiles/kmsbienfirstappinterface.dir/requires
 
 src/server/CMakeFiles/kmsbienfirstappinterface.dir/clean:
-	cd /home/AzureUser/kurento/bienfirstapp/build/src/server && $(CMAKE_COMMAND) -P CMakeFiles/kmsbienfirstappinterface.dir/cmake_clean.cmake
+	cd /home/ajander/OpencvInstallation/bienfirstapp/build/src/server && $(CMAKE_COMMAND) -P CMakeFiles/kmsbienfirstappinterface.dir/cmake_clean.cmake
 .PHONY : src/server/CMakeFiles/kmsbienfirstappinterface.dir/clean
 
 src/server/CMakeFiles/kmsbienfirstappinterface.dir/depend: src/server/cpp_interface_internal.generated
@@ -165,6 +165,6 @@ src/server/CMakeFiles/kmsbienfirstappinterface.dir/depend: src/server/interface/
 src/server/CMakeFiles/kmsbienfirstappinterface.dir/depend: src/server/cpp_interface.generated
 src/server/CMakeFiles/kmsbienfirstappinterface.dir/depend: src/server/interface/generated-cpp/bienfirstapp.cpp
 src/server/CMakeFiles/kmsbienfirstappinterface.dir/depend: src/server/interface/generated-cpp/bienfirstapp.hpp
-	cd /home/AzureUser/kurento/bienfirstapp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/AzureUser/kurento/bienfirstapp /home/AzureUser/kurento/bienfirstapp/src/server /home/AzureUser/kurento/bienfirstapp/build /home/AzureUser/kurento/bienfirstapp/build/src/server /home/AzureUser/kurento/bienfirstapp/build/src/server/CMakeFiles/kmsbienfirstappinterface.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ajander/OpencvInstallation/bienfirstapp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ajander/OpencvInstallation/bienfirstapp /home/ajander/OpencvInstallation/bienfirstapp/src/server /home/ajander/OpencvInstallation/bienfirstapp/build /home/ajander/OpencvInstallation/bienfirstapp/build/src/server /home/ajander/OpencvInstallation/bienfirstapp/build/src/server/CMakeFiles/kmsbienfirstappinterface.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/server/CMakeFiles/kmsbienfirstappinterface.dir/depend
 

@@ -1,0 +1,12 @@
+/usr/lib/x86_64-linux-gnu/libkmsbienfirstappinterface.a
+/usr/include/kurento/modules/bienfirstapp/bienfirstapp.hpp
+/usr/lib/x86_64-linux-gnu/pkgconfig/kmsbienfirstapp.pc
+/usr/lib/x86_64-linux-gnu/libkmsbienfirstappimpl.so.0.0.1~34.g0d76ce5
+/usr/lib/x86_64-linux-gnu/libkmsbienfirstappimpl.so.0
+/usr/lib/x86_64-linux-gnu/libkmsbienfirstappimpl.so
+/usr/include/kurento/modules/bienfirstapp/bienfirstappImpl.hpp
+/usr/include/kurento/modules/bienfirstapp/bienfirstappOpenCVImpl.hpp
+/usr/include/kurento/modules/bienfirstapp/bienfirstappImplFactory.hpp
+/usr/lib/x86_64-linux-gnu/kurento/modules/libkmsbienfirstappmodule.so
+/usr/share/cmake-3.10/Modules/FindKMSBIENFIRSTAPP.cmake
+/usr/share/kurento/modules/bienfirstapp.kmd.json

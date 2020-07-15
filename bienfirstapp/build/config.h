@@ -2,7 +2,7 @@
 #define __BIENFIRSTAPP_CONFIG_H__
 
 /* Version */
-#define VERSION "0.0.1~0.gcbdc2e3"
+#define VERSION "0.0.1~34.g0d76ce5"
 
 /* Package name */
 #define PACKAGE "bienfirstapp"
@@ -11,6 +11,6 @@
 #define GETTEXT_PACKAGE "bienfirstapp"
 
 /* Library installation directory */
-#define KURENTO_MODULES_SO_DIR "/usr/local/lib/kurento/modules"
+#define KURENTO_MODULES_SO_DIR "/usr/lib/x86_64-linux-gnu/kurento/modules"
 
 #endif /* __BIENFIRSTAPP_CONFIG_H__ */

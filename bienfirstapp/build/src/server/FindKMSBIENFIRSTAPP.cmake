@@ -5,10 +5,10 @@
 #
 #=============================================================================
 
-set(PACKAGE_VERSION "0.0.1~0.gcbdc2e3")
+set(PACKAGE_VERSION "0.0.1~34.g0d76ce5")
 set(KMSBIENFIRSTAPP_VERSION ${PACKAGE_VERSION})
 
-message (STATUS "Looking for KMSBIENFIRSTAPP: 0.0.1~0.gcbdc2e3")
+message (STATUS "Looking for KMSBIENFIRSTAPP: 0.0.1~34.g0d76ce5")
 
 include (GenericFind)
 

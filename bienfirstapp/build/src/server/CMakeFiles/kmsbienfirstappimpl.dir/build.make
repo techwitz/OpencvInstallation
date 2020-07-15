@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/AzureUser/kurento/bienfirstapp
+CMAKE_SOURCE_DIR = /home/ajander/OpencvInstallation/bienfirstapp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/AzureUser/kurento/bienfirstapp/build
+CMAKE_BINARY_DIR = /home/ajander/OpencvInstallation/bienfirstapp/build
 
 # Include any dependencies generated for this target.
 include src/server/CMakeFiles/kmsbienfirstappimpl.dir/depend.make
@@ -59,9 +59,9 @@ include src/server/CMakeFiles/kmsbienfirstappimpl.dir/flags.make
 
 src/server/cpp_server_internal.generated: ../src/server/interface/bienfirstapp.bienfirstapp.kmd.json
 src/server/cpp_server_internal.generated: ../src/server/interface/bienfirstapp.kmd.json
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/AzureUser/kurento/bienfirstapp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating cpp_server_internal.generated, implementation/generated-cpp/SerializerExpanderBienfirstapp.cpp, implementation/generated-cpp/bienfirstappImplInternal.cpp, implementation/generated-cpp/bienfirstappImplFactory.hpp"
-	cd /home/AzureUser/kurento/bienfirstapp/build/src/server && /usr/bin/cmake -E touch cpp_server_internal.generated
-	cd /home/AzureUser/kurento/bienfirstapp/build/src/server && /usr/bin/kurento-module-creator -c /home/AzureUser/kurento/bienfirstapp/build/src/server/implementation/generated-cpp -r /home/AzureUser/kurento/bienfirstapp/src/server/interface -dr /usr/share/kurento/modules -dr /usr/share/kurento/modules -it cpp_server_internal
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ajander/OpencvInstallation/bienfirstapp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating cpp_server_internal.generated, implementation/generated-cpp/SerializerExpanderBienfirstapp.cpp, implementation/generated-cpp/bienfirstappImplInternal.cpp, implementation/generated-cpp/bienfirstappImplFactory.hpp"
+	cd /home/ajander/OpencvInstallation/bienfirstapp/build/src/server && /usr/bin/cmake -E touch cpp_server_internal.generated
+	cd /home/ajander/OpencvInstallation/bienfirstapp/build/src/server && /usr/bin/kurento-module-creator -c /home/ajander/OpencvInstallation/bienfirstapp/build/src/server/implementation/generated-cpp -r /home/ajander/OpencvInstallation/bienfirstapp/src/server/interface -dr /usr/share/kurento/modules -dr /usr/share/kurento/modules -it cpp_server_internal
 
 src/server/implementation/generated-cpp/SerializerExpanderBienfirstapp.cpp: src/server/cpp_server_internal.generated
 	@$(CMAKE_COMMAND) -E touch_nocreate src/server/implementation/generated-cpp/SerializerExpanderBienfirstapp.cpp
@@ -74,16 +74,16 @@ src/server/implementation/generated-cpp/bienfirstappImplFactory.hpp: src/server/
 
 src/server/CMakeFiles/kmsbienfirstappimpl.dir/implementation/objects/bienfirstappImpl.cpp.o: src/server/CMakeFiles/kmsbienfirstappimpl.dir/flags.make
 src/server/CMakeFiles/kmsbienfirstappimpl.dir/implementation/objects/bienfirstappImpl.cpp.o: ../src/server/implementation/objects/bienfirstappImpl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/AzureUser/kurento/bienfirstapp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/server/CMakeFiles/kmsbienfirstappimpl.dir/implementation/objects/bienfirstappImpl.cpp.o"
-	cd /home/AzureUser/kurento/bienfirstapp/build/src/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kmsbienfirstappimpl.dir/implementation/objects/bienfirstappImpl.cpp.o -c /home/AzureUser/kurento/bienfirstapp/src/server/implementation/objects/bienfirstappImpl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ajander/OpencvInstallation/bienfirstapp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/server/CMakeFiles/kmsbienfirstappimpl.dir/implementation/objects/bienfirstappImpl.cpp.o"
+	cd /home/ajander/OpencvInstallation/bienfirstapp/build/src/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kmsbienfirstappimpl.dir/implementation/objects/bienfirstappImpl.cpp.o -c /home/ajander/OpencvInstallation/bienfirstapp/src/server/implementation/objects/bienfirstappImpl.cpp
 
 src/server/CMakeFiles/kmsbienfirstappimpl.dir/implementation/objects/bienfirstappImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kmsbienfirstappimpl.dir/implementation/objects/bienfirstappImpl.cpp.i"
-	cd /home/AzureUser/kurento/bienfirstapp/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/AzureUser/kurento/bienfirstapp/src/server/implementation/objects/bienfirstappImpl.cpp > CMakeFiles/kmsbienfirstappimpl.dir/implementation/objects/bienfirstappImpl.cpp.i
+	cd /home/ajander/OpencvInstallation/bienfirstapp/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ajander/OpencvInstallation/bienfirstapp/src/server/implementation/objects/bienfirstappImpl.cpp > CMakeFiles/kmsbienfirstappimpl.dir/implementation/objects/bienfirstappImpl.cpp.i
 
 src/server/CMakeFiles/kmsbienfirstappimpl.dir/implementation/objects/bienfirstappImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kmsbienfirstappimpl.dir/implementation/objects/bienfirstappImpl.cpp.s"
-	cd /home/AzureUser/kurento/bienfirstapp/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/AzureUser/kurento/bienfirstapp/src/server/implementation/objects/bienfirstappImpl.cpp -o CMakeFiles/kmsbienfirstappimpl.dir/implementation/objects/bienfirstappImpl.cpp.s
+	cd /home/ajander/OpencvInstallation/bienfirstapp/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ajander/OpencvInstallation/bienfirstapp/src/server/implementation/objects/bienfirstappImpl.cpp -o CMakeFiles/kmsbienfirstappimpl.dir/implementation/objects/bienfirstappImpl.cpp.s
 
 src/server/CMakeFiles/kmsbienfirstappimpl.dir/implementation/objects/bienfirstappImpl.cpp.o.requires:
 
@@ -98,16 +98,16 @@ src/server/CMakeFiles/kmsbienfirstappimpl.dir/implementation/objects/bienfirstap
 
 src/server/CMakeFiles/kmsbienfirstappimpl.dir/implementation/objects/bienfirstappOpenCVImpl.cpp.o: src/server/CMakeFiles/kmsbienfirstappimpl.dir/flags.make
 src/server/CMakeFiles/kmsbienfirstappimpl.dir/implementation/objects/bienfirstappOpenCVImpl.cpp.o: ../src/server/implementation/objects/bienfirstappOpenCVImpl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/AzureUser/kurento/bienfirstapp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/server/CMakeFiles/kmsbienfirstappimpl.dir/implementation/objects/bienfirstappOpenCVImpl.cpp.o"
-	cd /home/AzureUser/kurento/bienfirstapp/build/src/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kmsbienfirstappimpl.dir/implementation/objects/bienfirstappOpenCVImpl.cpp.o -c /home/AzureUser/kurento/bienfirstapp/src/server/implementation/objects/bienfirstappOpenCVImpl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ajander/OpencvInstallation/bienfirstapp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/server/CMakeFiles/kmsbienfirstappimpl.dir/implementation/objects/bienfirstappOpenCVImpl.cpp.o"
+	cd /home/ajander/OpencvInstallation/bienfirstapp/build/src/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kmsbienfirstappimpl.dir/implementation/objects/bienfirstappOpenCVImpl.cpp.o -c /home/ajander/OpencvInstallation/bienfirstapp/src/server/implementation/objects/bienfirstappOpenCVImpl.cpp
 
 src/server/CMakeFiles/kmsbienfirstappimpl.dir/implementation/objects/bienfirstappOpenCVImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kmsbienfirstappimpl.dir/implementation/objects/bienfirstappOpenCVImpl.cpp.i"
-	cd /home/AzureUser/kurento/bienfirstapp/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/AzureUser/kurento/bienfirstapp/src/server/implementation/objects/bienfirstappOpenCVImpl.cpp > CMakeFiles/kmsbienfirstappimpl.dir/implementation/objects/bienfirstappOpenCVImpl.cpp.i
+	cd /home/ajander/OpencvInstallation/bienfirstapp/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ajander/OpencvInstallation/bienfirstapp/src/server/implementation/objects/bienfirstappOpenCVImpl.cpp > CMakeFiles/kmsbienfirstappimpl.dir/implementation/objects/bienfirstappOpenCVImpl.cpp.i
 
 src/server/CMakeFiles/kmsbienfirstappimpl.dir/implementation/objects/bienfirstappOpenCVImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kmsbienfirstappimpl.dir/implementation/objects/bienfirstappOpenCVImpl.cpp.s"
-	cd /home/AzureUser/kurento/bienfirstapp/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/AzureUser/kurento/bienfirstapp/src/server/implementation/objects/bienfirstappOpenCVImpl.cpp -o CMakeFiles/kmsbienfirstappimpl.dir/implementation/objects/bienfirstappOpenCVImpl.cpp.s
+	cd /home/ajander/OpencvInstallation/bienfirstapp/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ajander/OpencvInstallation/bienfirstapp/src/server/implementation/objects/bienfirstappOpenCVImpl.cpp -o CMakeFiles/kmsbienfirstappimpl.dir/implementation/objects/bienfirstappOpenCVImpl.cpp.s
 
 src/server/CMakeFiles/kmsbienfirstappimpl.dir/implementation/objects/bienfirstappOpenCVImpl.cpp.o.requires:
 
@@ -122,16 +122,16 @@ src/server/CMakeFiles/kmsbienfirstappimpl.dir/implementation/objects/bienfirstap
 
 src/server/CMakeFiles/kmsbienfirstappimpl.dir/implementation/generated-cpp/SerializerExpanderBienfirstapp.cpp.o: src/server/CMakeFiles/kmsbienfirstappimpl.dir/flags.make
 src/server/CMakeFiles/kmsbienfirstappimpl.dir/implementation/generated-cpp/SerializerExpanderBienfirstapp.cpp.o: src/server/implementation/generated-cpp/SerializerExpanderBienfirstapp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/AzureUser/kurento/bienfirstapp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/server/CMakeFiles/kmsbienfirstappimpl.dir/implementation/generated-cpp/SerializerExpanderBienfirstapp.cpp.o"
-	cd /home/AzureUser/kurento/bienfirstapp/build/src/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kmsbienfirstappimpl.dir/implementation/generated-cpp/SerializerExpanderBienfirstapp.cpp.o -c /home/AzureUser/kurento/bienfirstapp/build/src/server/implementation/generated-cpp/SerializerExpanderBienfirstapp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ajander/OpencvInstallation/bienfirstapp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/server/CMakeFiles/kmsbienfirstappimpl.dir/implementation/generated-cpp/SerializerExpanderBienfirstapp.cpp.o"
+	cd /home/ajander/OpencvInstallation/bienfirstapp/build/src/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kmsbienfirstappimpl.dir/implementation/generated-cpp/SerializerExpanderBienfirstapp.cpp.o -c /home/ajander/OpencvInstallation/bienfirstapp/build/src/server/implementation/generated-cpp/SerializerExpanderBienfirstapp.cpp
 
 src/server/CMakeFiles/kmsbienfirstappimpl.dir/implementation/generated-cpp/SerializerExpanderBienfirstapp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kmsbienfirstappimpl.dir/implementation/generated-cpp/SerializerExpanderBienfirstapp.cpp.i"
-	cd /home/AzureUser/kurento/bienfirstapp/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/AzureUser/kurento/bienfirstapp/build/src/server/implementation/generated-cpp/SerializerExpanderBienfirstapp.cpp > CMakeFiles/kmsbienfirstappimpl.dir/implementation/generated-cpp/SerializerExpanderBienfirstapp.cpp.i
+	cd /home/ajander/OpencvInstallation/bienfirstapp/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ajander/OpencvInstallation/bienfirstapp/build/src/server/implementation/generated-cpp/SerializerExpanderBienfirstapp.cpp > CMakeFiles/kmsbienfirstappimpl.dir/implementation/generated-cpp/SerializerExpanderBienfirstapp.cpp.i
 
 src/server/CMakeFiles/kmsbienfirstappimpl.dir/implementation/generated-cpp/SerializerExpanderBienfirstapp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kmsbienfirstappimpl.dir/implementation/generated-cpp/SerializerExpanderBienfirstapp.cpp.s"
-	cd /home/AzureUser/kurento/bienfirstapp/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/AzureUser/kurento/bienfirstapp/build/src/server/implementation/generated-cpp/SerializerExpanderBienfirstapp.cpp -o CMakeFiles/kmsbienfirstappimpl.dir/implementation/generated-cpp/SerializerExpanderBienfirstapp.cpp.s
+	cd /home/ajander/OpencvInstallation/bienfirstapp/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ajander/OpencvInstallation/bienfirstapp/build/src/server/implementation/generated-cpp/SerializerExpanderBienfirstapp.cpp -o CMakeFiles/kmsbienfirstappimpl.dir/implementation/generated-cpp/SerializerExpanderBienfirstapp.cpp.s
 
 src/server/CMakeFiles/kmsbienfirstappimpl.dir/implementation/generated-cpp/SerializerExpanderBienfirstapp.cpp.o.requires:
 
@@ -146,16 +146,16 @@ src/server/CMakeFiles/kmsbienfirstappimpl.dir/implementation/generated-cpp/Seria
 
 src/server/CMakeFiles/kmsbienfirstappimpl.dir/implementation/generated-cpp/bienfirstappImplInternal.cpp.o: src/server/CMakeFiles/kmsbienfirstappimpl.dir/flags.make
 src/server/CMakeFiles/kmsbienfirstappimpl.dir/implementation/generated-cpp/bienfirstappImplInternal.cpp.o: src/server/implementation/generated-cpp/bienfirstappImplInternal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/AzureUser/kurento/bienfirstapp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/server/CMakeFiles/kmsbienfirstappimpl.dir/implementation/generated-cpp/bienfirstappImplInternal.cpp.o"
-	cd /home/AzureUser/kurento/bienfirstapp/build/src/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kmsbienfirstappimpl.dir/implementation/generated-cpp/bienfirstappImplInternal.cpp.o -c /home/AzureUser/kurento/bienfirstapp/build/src/server/implementation/generated-cpp/bienfirstappImplInternal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ajander/OpencvInstallation/bienfirstapp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/server/CMakeFiles/kmsbienfirstappimpl.dir/implementation/generated-cpp/bienfirstappImplInternal.cpp.o"
+	cd /home/ajander/OpencvInstallation/bienfirstapp/build/src/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kmsbienfirstappimpl.dir/implementation/generated-cpp/bienfirstappImplInternal.cpp.o -c /home/ajander/OpencvInstallation/bienfirstapp/build/src/server/implementation/generated-cpp/bienfirstappImplInternal.cpp
 
 src/server/CMakeFiles/kmsbienfirstappimpl.dir/implementation/generated-cpp/bienfirstappImplInternal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kmsbienfirstappimpl.dir/implementation/generated-cpp/bienfirstappImplInternal.cpp.i"
-	cd /home/AzureUser/kurento/bienfirstapp/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/AzureUser/kurento/bienfirstapp/build/src/server/implementation/generated-cpp/bienfirstappImplInternal.cpp > CMakeFiles/kmsbienfirstappimpl.dir/implementation/generated-cpp/bienfirstappImplInternal.cpp.i
+	cd /home/ajander/OpencvInstallation/bienfirstapp/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ajander/OpencvInstallation/bienfirstapp/build/src/server/implementation/generated-cpp/bienfirstappImplInternal.cpp > CMakeFiles/kmsbienfirstappimpl.dir/implementation/generated-cpp/bienfirstappImplInternal.cpp.i
 
 src/server/CMakeFiles/kmsbienfirstappimpl.dir/implementation/generated-cpp/bienfirstappImplInternal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kmsbienfirstappimpl.dir/implementation/generated-cpp/bienfirstappImplInternal.cpp.s"
-	cd /home/AzureUser/kurento/bienfirstapp/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/AzureUser/kurento/bienfirstapp/build/src/server/implementation/generated-cpp/bienfirstappImplInternal.cpp -o CMakeFiles/kmsbienfirstappimpl.dir/implementation/generated-cpp/bienfirstappImplInternal.cpp.s
+	cd /home/ajander/OpencvInstallation/bienfirstapp/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ajander/OpencvInstallation/bienfirstapp/build/src/server/implementation/generated-cpp/bienfirstappImplInternal.cpp -o CMakeFiles/kmsbienfirstappimpl.dir/implementation/generated-cpp/bienfirstappImplInternal.cpp.s
 
 src/server/CMakeFiles/kmsbienfirstappimpl.dir/implementation/generated-cpp/bienfirstappImplInternal.cpp.o.requires:
 
@@ -178,28 +178,28 @@ kmsbienfirstappimpl_OBJECTS = \
 # External object files for target kmsbienfirstappimpl
 kmsbienfirstappimpl_EXTERNAL_OBJECTS =
 
-src/server/libkmsbienfirstappimpl.so.0.0.1~0.gcbdc2e3: src/server/CMakeFiles/kmsbienfirstappimpl.dir/implementation/objects/bienfirstappImpl.cpp.o
-src/server/libkmsbienfirstappimpl.so.0.0.1~0.gcbdc2e3: src/server/CMakeFiles/kmsbienfirstappimpl.dir/implementation/objects/bienfirstappOpenCVImpl.cpp.o
-src/server/libkmsbienfirstappimpl.so.0.0.1~0.gcbdc2e3: src/server/CMakeFiles/kmsbienfirstappimpl.dir/implementation/generated-cpp/SerializerExpanderBienfirstapp.cpp.o
-src/server/libkmsbienfirstappimpl.so.0.0.1~0.gcbdc2e3: src/server/CMakeFiles/kmsbienfirstappimpl.dir/implementation/generated-cpp/bienfirstappImplInternal.cpp.o
-src/server/libkmsbienfirstappimpl.so.0.0.1~0.gcbdc2e3: src/server/CMakeFiles/kmsbienfirstappimpl.dir/build.make
-src/server/libkmsbienfirstappimpl.so.0.0.1~0.gcbdc2e3: /usr/lib/x86_64-linux-gnu/libkmselementsimpl.so
-src/server/libkmsbienfirstappimpl.so.0.0.1~0.gcbdc2e3: /usr/lib/x86_64-linux-gnu/libkmsfiltersimpl.so
-src/server/libkmsbienfirstappimpl.so.0.0.1~0.gcbdc2e3: /usr/lib/x86_64-linux-gnu/libkmselementsimpl.so
-src/server/libkmsbienfirstappimpl.so.0.0.1~0.gcbdc2e3: src/server/libkmsbienfirstappinterface.a
-src/server/libkmsbienfirstappimpl.so.0.0.1~0.gcbdc2e3: /usr/lib/x86_64-linux-gnu/libkmselementsimpl.so
-src/server/libkmsbienfirstappimpl.so.0.0.1~0.gcbdc2e3: /usr/lib/x86_64-linux-gnu/libkmsfiltersimpl.so
-src/server/libkmsbienfirstappimpl.so.0.0.1~0.gcbdc2e3: /usr/lib/x86_64-linux-gnu/libkmselementsimpl.so
-src/server/libkmsbienfirstappimpl.so.0.0.1~0.gcbdc2e3: /usr/lib/x86_64-linux-gnu/libkmsfiltersimpl.so
-src/server/libkmsbienfirstappimpl.so.0.0.1~0.gcbdc2e3: src/server/CMakeFiles/kmsbienfirstappimpl.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/AzureUser/kurento/bienfirstapp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library libkmsbienfirstappimpl.so"
-	cd /home/AzureUser/kurento/bienfirstapp/build/src/server && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kmsbienfirstappimpl.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/AzureUser/kurento/bienfirstapp/build/src/server && $(CMAKE_COMMAND) -E cmake_symlink_library "libkmsbienfirstappimpl.so.0.0.1~0.gcbdc2e3" libkmsbienfirstappimpl.so.0 libkmsbienfirstappimpl.so
+src/server/libkmsbienfirstappimpl.so.0.0.1~34.g0d76ce5: src/server/CMakeFiles/kmsbienfirstappimpl.dir/implementation/objects/bienfirstappImpl.cpp.o
+src/server/libkmsbienfirstappimpl.so.0.0.1~34.g0d76ce5: src/server/CMakeFiles/kmsbienfirstappimpl.dir/implementation/objects/bienfirstappOpenCVImpl.cpp.o
+src/server/libkmsbienfirstappimpl.so.0.0.1~34.g0d76ce5: src/server/CMakeFiles/kmsbienfirstappimpl.dir/implementation/generated-cpp/SerializerExpanderBienfirstapp.cpp.o
+src/server/libkmsbienfirstappimpl.so.0.0.1~34.g0d76ce5: src/server/CMakeFiles/kmsbienfirstappimpl.dir/implementation/generated-cpp/bienfirstappImplInternal.cpp.o
+src/server/libkmsbienfirstappimpl.so.0.0.1~34.g0d76ce5: src/server/CMakeFiles/kmsbienfirstappimpl.dir/build.make
+src/server/libkmsbienfirstappimpl.so.0.0.1~34.g0d76ce5: /usr/lib/x86_64-linux-gnu/libkmselementsimpl.so
+src/server/libkmsbienfirstappimpl.so.0.0.1~34.g0d76ce5: /usr/lib/x86_64-linux-gnu/libkmsfiltersimpl.so
+src/server/libkmsbienfirstappimpl.so.0.0.1~34.g0d76ce5: /usr/lib/x86_64-linux-gnu/libkmselementsimpl.so
+src/server/libkmsbienfirstappimpl.so.0.0.1~34.g0d76ce5: src/server/libkmsbienfirstappinterface.a
+src/server/libkmsbienfirstappimpl.so.0.0.1~34.g0d76ce5: /usr/lib/x86_64-linux-gnu/libkmselementsimpl.so
+src/server/libkmsbienfirstappimpl.so.0.0.1~34.g0d76ce5: /usr/lib/x86_64-linux-gnu/libkmsfiltersimpl.so
+src/server/libkmsbienfirstappimpl.so.0.0.1~34.g0d76ce5: /usr/lib/x86_64-linux-gnu/libkmselementsimpl.so
+src/server/libkmsbienfirstappimpl.so.0.0.1~34.g0d76ce5: /usr/lib/x86_64-linux-gnu/libkmsfiltersimpl.so
+src/server/libkmsbienfirstappimpl.so.0.0.1~34.g0d76ce5: src/server/CMakeFiles/kmsbienfirstappimpl.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ajander/OpencvInstallation/bienfirstapp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library libkmsbienfirstappimpl.so"
+	cd /home/ajander/OpencvInstallation/bienfirstapp/build/src/server && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kmsbienfirstappimpl.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/ajander/OpencvInstallation/bienfirstapp/build/src/server && $(CMAKE_COMMAND) -E cmake_symlink_library "libkmsbienfirstappimpl.so.0.0.1~34.g0d76ce5" libkmsbienfirstappimpl.so.0 libkmsbienfirstappimpl.so
 
-src/server/libkmsbienfirstappimpl.so.0: src/server/libkmsbienfirstappimpl.so.0.0.1~0.gcbdc2e3
+src/server/libkmsbienfirstappimpl.so.0: src/server/libkmsbienfirstappimpl.so.0.0.1~34.g0d76ce5
 	@$(CMAKE_COMMAND) -E touch_nocreate src/server/libkmsbienfirstappimpl.so.0
 
-src/server/libkmsbienfirstappimpl.so: src/server/libkmsbienfirstappimpl.so.0.0.1~0.gcbdc2e3
+src/server/libkmsbienfirstappimpl.so: src/server/libkmsbienfirstappimpl.so.0.0.1~34.g0d76ce5
 	@$(CMAKE_COMMAND) -E touch_nocreate src/server/libkmsbienfirstappimpl.so
 
 # Rule to build all files generated by this target.
@@ -215,13 +215,13 @@ src/server/CMakeFiles/kmsbienfirstappimpl.dir/requires: src/server/CMakeFiles/km
 .PHONY : src/server/CMakeFiles/kmsbienfirstappimpl.dir/requires
 
 src/server/CMakeFiles/kmsbienfirstappimpl.dir/clean:
-	cd /home/AzureUser/kurento/bienfirstapp/build/src/server && $(CMAKE_COMMAND) -P CMakeFiles/kmsbienfirstappimpl.dir/cmake_clean.cmake
+	cd /home/ajander/OpencvInstallation/bienfirstapp/build/src/server && $(CMAKE_COMMAND) -P CMakeFiles/kmsbienfirstappimpl.dir/cmake_clean.cmake
 .PHONY : src/server/CMakeFiles/kmsbienfirstappimpl.dir/clean
 
 src/server/CMakeFiles/kmsbienfirstappimpl.dir/depend: src/server/cpp_server_internal.generated
 src/server/CMakeFiles/kmsbienfirstappimpl.dir/depend: src/server/implementation/generated-cpp/SerializerExpanderBienfirstapp.cpp
 src/server/CMakeFiles/kmsbienfirstappimpl.dir/depend: src/server/implementation/generated-cpp/bienfirstappImplInternal.cpp
 src/server/CMakeFiles/kmsbienfirstappimpl.dir/depend: src/server/implementation/generated-cpp/bienfirstappImplFactory.hpp
-	cd /home/AzureUser/kurento/bienfirstapp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/AzureUser/kurento/bienfirstapp /home/AzureUser/kurento/bienfirstapp/src/server /home/AzureUser/kurento/bienfirstapp/build /home/AzureUser/kurento/bienfirstapp/build/src/server /home/AzureUser/kurento/bienfirstapp/build/src/server/CMakeFiles/kmsbienfirstappimpl.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ajander/OpencvInstallation/bienfirstapp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ajander/OpencvInstallation/bienfirstapp /home/ajander/OpencvInstallation/bienfirstapp/src/server /home/ajander/OpencvInstallation/bienfirstapp/build /home/ajander/OpencvInstallation/bienfirstapp/build/src/server /home/ajander/OpencvInstallation/bienfirstapp/build/src/server/CMakeFiles/kmsbienfirstappimpl.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/server/CMakeFiles/kmsbienfirstappimpl.dir/depend
 
