@@ -1,0 +1,9 @@
+# Target labels
+ Extra
+ opencv_hfs
+ Sample
+# Source files and their labels
+/home/ajander/OpencvInstallation/opencv_contrib/modules/hfs/samples/example.cpp
+ Extra
+ opencv_hfs
+ Sample

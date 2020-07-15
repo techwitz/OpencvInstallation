@@ -1,0 +1,9 @@
+# Target labels
+ Extra
+ opencv_videostab
+ Sample
+# Source files and their labels
+/home/ajander/OpencvInstallation/opencv_contrib/modules/videostab/samples/videostab.cpp
+ Extra
+ opencv_videostab
+ Sample

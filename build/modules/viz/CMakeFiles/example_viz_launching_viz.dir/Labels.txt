@@ -1,0 +1,9 @@
+# Target labels
+ Extra
+ opencv_viz
+ Sample
+# Source files and their labels
+/home/ajander/OpencvInstallation/opencv_contrib/modules/viz/samples/launching_viz.cpp
+ Extra
+ opencv_viz
+ Sample

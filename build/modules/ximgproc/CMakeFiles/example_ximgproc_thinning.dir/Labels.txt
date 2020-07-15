@@ -1,0 +1,9 @@
+# Target labels
+ Extra
+ opencv_ximgproc
+ Sample
+# Source files and their labels
+/home/ajander/OpencvInstallation/opencv_contrib/modules/ximgproc/samples/thinning.cpp
+ Extra
+ opencv_ximgproc
+ Sample

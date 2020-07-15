@@ -1,0 +1,9 @@
+# Target labels
+ Extra
+ opencv_hdf
+ Sample
+# Source files and their labels
+/home/ajander/OpencvInstallation/opencv_contrib/modules/hdf/samples/create_read_write_datasets.cpp
+ Extra
+ opencv_hdf
+ Sample
