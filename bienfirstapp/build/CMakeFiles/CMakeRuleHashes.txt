@@ -1,0 +1,6 @@
+# Hashes of file build rules.
+852af2cb744356e9bd4c47b250d89a6c src/server/bienfirstapp.kmd.json
+96c149f45dfb25652d6a2aacca63f316 src/server/cpp_interface.generated
+0cdf50545051cb14b5c888e8966bef57 src/server/cpp_interface_internal.generated
+f8809b176b71a0a8be34a527a956d637 src/server/cpp_module.generated
+d39c41113d3f900176e343092ee9a258 src/server/cpp_server_internal.generated

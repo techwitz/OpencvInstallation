@@ -1,0 +1,2 @@
+/usr/bin/ar qc libkmsbienfirstappinterface.a  CMakeFiles/kmsbienfirstappinterface.dir/interface/generated-cpp/bienfirstappInternal.cpp.o CMakeFiles/kmsbienfirstappinterface.dir/interface/generated-cpp/bienfirstapp.cpp.o
+/usr/bin/ranlib libkmsbienfirstappinterface.a
